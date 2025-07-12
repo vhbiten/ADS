@@ -8,6 +8,7 @@ int main() {
   float card1_area, card2_area;
   float card1_pib, card2_pib;
   int card1_pontosturisticos, card2_pontosturisticos;
+
   //cadastro das cartas
   //primeira carta
   printf("Cadastre sua primeira carta.\n Digite o Estado: ");
@@ -31,7 +32,7 @@ int main() {
   printf("Quantos pontos turísticos a sua cidade tem?\n R:");
   scanf("%d", &card1_pontosturisticos);
 
-  //segunda carta
+  //cadastro da segunda carta
   printf("Cadastre sua segunda carta.\n Digite o Estado: ");
   scanf("%s", card2_estado);
 
@@ -53,6 +54,7 @@ int main() {
   printf("Quantos pontos turísticos a sua cidade tem?\n R:");
   scanf("%d", &card2_pontosturisticos);
 
+  //listagem das cartas cadastradas
   printf("CARTA 1:\n");
   printf("Estado: %s\n", card1_estado);
   printf("Código: %s\n", card1_codigo);
@@ -72,7 +74,5 @@ int main() {
   printf("Números de Pontos Turísticos: %d\n", card2_pontosturisticos);
 
   return 0;
-
-
 }
   
